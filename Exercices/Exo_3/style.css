@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#contenu{
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    min-width: 600px;
+    overflow-y: auto;
+    overflow-x: none;
+    margin: auto;
+    padding: 50px 30px;
+}
+
+.cv-desc{
+    float: left;
+    width: 49%;
+}
+
+.cv-info{
+    width: 46%;
+    margin: 2%;
+    float: right;
+    border: 2px solid gold;
+    border-top: none;
+}
+
+.cv-info li{
+    list-style: circle;
+}
+
+.cv-info p{
+    padding: 5px 10px;
+}
+
+
+#photo{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+#cv-forma{
+    width: 96%;
+}
+
+dt{
+    width: 130px;
+    text-align: left;
+    font-style: oblique;
+    color: gold;
+    padding: 5px;
+}
+
+dd{
+    margin: 0 0 0 30px;
+}
+
+h1{
+    text-align: center;
+    color: gold;
+    text-shadow: 1px 1px 2px black;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+    background-color: gold;
+}
+
+h2 + p {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#form fieldset{
+    margin: 5px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#form-coord, #form-besoin{
+    width: 100%;
+}
+
+#form-coord{
+    float: left;
+}
+
+#cood-nom, #cood-tel, #cood-email{
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#cood-nom input, #cood-tel input{
+    width: 49%;
+}
+
+#cood-nom input:last-child, #cood-tel input:last-child{
+    float: right;
+}
+
+.middle{
+    width: 45%;
+}
+
+.all{
+    width: 100%;
+}
+
+.grp-choix-sexe{
+    width: 100%;
+}
+
+form .grp-choix-sexe{
+    width: 50%;
+    margin-left: 5%;
+}
+
+form .label-sexe{
+    width: 30%;
+    margin-left: 5%;
+}
+
+form .choix-sexe{
+    width: 30%;
+    margin-right: 5%;
+}
+
+form select{
+    width: 25%;
+}
+
+#form textarea{
+    width: 75%;
+    float: right;
+}
+
+#lien-navig{
+    padding: 10px;
+    padding-bottom: 0;
+    width: 100%;
+    float: left;
+}
+
+#form-action, #lien-navig input{
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 96%;
+}
+
+form + #lien-navig input{
+    margin: 0;
+    float: right;
+}
+
+#form-action input:first-child{
+    background-color: gold;
+    float: left;
+    margin-right: 1%;
+}
+
+#form-action input:last-child{
+    background-color: gold;
+    float: right;
+    margin-left: 1%;
+}
+
+#lienRedirect input{
+    background-color: gold;
+}

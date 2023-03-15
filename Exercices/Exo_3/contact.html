@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercice 2</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="contenu">
+            <h1>Fomulaire de contact</h1>
+            <form id="form">
+                <div id="form-coord">
+                    <fieldset>
+                        <legend>Coordonnée</legend>
+
+                        <div class="cood-nom">
+                            <input class="middle" type="text" name="nom" placeholder="Nom" required>
+                            <input class="middle" type="text" name="prenom" placeholder="Prenom">
+                        </div>
+
+                        <div class="grp-choix-sexe">
+                            <label id="label-sexe">Sexe :</label>
+                            <span class="choix-sexe">
+                                <input type="radio" name="sexe" id="sexe-h">
+                                <label for="sexe-h">Homme</label>
+                            </span>
+                            <span class="choix-sexe">
+                                <input type="radio" name="sexe" id="sexe-f">
+                                <label for="sexe-f">Femme</label>
+                            </span>
+                            <span class="choix-sexe">
+                                <input type="radio" name="sexe" id="indéfinis">
+                                <label for="autre">Indéfinis</label>
+                            </span>
+                        </div>
+
+                        <div id="cood-mail">
+                            <input class="all" type="email" name="email" placeholder="AlainDELoin@gmail.com">
+                        </div>
+                        <div id="cood-tel">
+                            <input type="tel" placeholder="N° mobile" required>
+                            <input type="tel" placeholder="N° fixe">
+                        </div>
+
+                    </fieldset>
+                </div>
+                <div id="form-besoin">
+                    <fieldset>
+                        <legend>Vos besoins</legend>
+                        <div>
+                            <select name="besoin">
+                                <optgroup label="Front-end">
+                                    <option value="html">Html</option>
+                                    <option value="css">Css</option>
+                                    <option value="javascript">JavaScript</option>
+                                </optgroup>
+                                <optgroup label="Back-end">
+                                    <option value="csharp">C#</option>
+                                    <option value="javascript">JavaScript</option>
+                                    <option value="python">Python</option>
+                                </optgroup>
+                            </select>
+
+                            <textarea name="commentaire" placeholder="Description ..."></textarea>
+                        </div>
+                    </fieldset>
+                </div>
+                <div id="form-action">
+                    <input class="middle" type="submit" value="Envoyer">
+                    <input class="middle" type="reset" value="Reset">
+                </div>
+                <div id="lien-navig">
+                    <a id="lienRedirect" href="./page.html"><input type="button" value="Retour au Cv"></a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

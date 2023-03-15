@@ -1,0 +1,373 @@
+@font-face{
+    font-family: "Pokemon";
+    src: url('./asset/fonts/Pokemon\ Solid.ttf');
+}
+
+p{
+    font-size: 50px;
+    margin: 0 0;
+}
+.w-25{
+    width: 25%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-75{
+    width: 75%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+
+
+.text-center{
+    text-align: center;
+}
+
+.content-center{
+    margin: auto;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+#test{
+    background-color: aquamarine;
+}
+
+.fs-1{
+    font-size: 10px;
+}
+.fs-2{
+    font-size: 20px;
+}
+.fs-3{
+    font-size: 30px;
+}
+.fs-4{
+    font-size: 40px;
+}
+.fs-5{
+    font-size: 50px;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+.text-capitalize{
+    text-transform: capitalize;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.text-lowercase{
+    text-transform: lowercase;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.text-line-through{
+    text-decoration: line-through;
+}
+
+.text-overline{
+    text-decoration: overline;
+}
+
+.text-visible{
+    /* Le contenue peut etre affiché en dehors de l'élément */
+    overflow: visible;
+}
+
+.text-hidden{
+    /* Le contenu sera rogner si il y a dépassement */
+    overflow: hidden;
+}
+
+.text-scroll{
+    /* Active une scrollbar sur dépassement */
+    overflow: scroll;
+}
+
+.text-normal{
+    overflow-wrap: normal;
+}
+
+.text-break-word{
+    overflow-wrap: break-word;
+}
+
+.box-small{
+    width: 150px;
+    height: 100px;
+}
+
+.box-medium{
+    width: 500px;
+    height: 200px;
+
+}
+
+.box-large{
+    width: 750px;
+    height: 300px;
+}
+
+.box-image{
+    width: 100%;
+    height: 1000px;
+    background-position: center center;
+    /* background-attachment: fixed; */
+    background-size: 100%;
+}
+
+.box-float{
+    width: 48%;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.font-arial{
+    font-family: arial;
+}
+
+.font-pokemon{
+    font-family: "Pokemon";
+}
+
+.text-color-red{
+    color: rgb(217, 69, 69);
+}
+
+.text-color-blue{
+    color: rgb(73, 73, 209);
+}
+
+.text-color-green{
+    color: rgb(31, 199, 31);
+}
+
+.color-text-primary{
+    color: rgb(222, 222, 2);
+}
+
+.color-text-secondary{
+    color: rgb(235, 235, 235);
+}
+
+.color-primary{
+    background-color: rgb(222, 222, 2);
+}
+
+.color-secondary{
+    background-color: rgb(207, 207, 207);
+}
+
+.color-background{
+    background-color: rgb(100, 100, 100);
+}
+
+.image-fond{
+    background-image: url("asset/jpg/image-attractive.jpg");
+    background-repeat: no-repeat;
+}
+
+.opacity-25{
+    opacity: 0.25;
+}
+
+.opacity-50{
+    opacity: 0.50;
+}
+
+.opacity-75{
+    opacity: 0.75;
+}
+
+.degrade{
+    background: linear-gradient(rgb(222, 222, 2),rgb(207, 207, 207));
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.mb-1{
+    margin-bottom: 10px;
+}
+
+.mb-2{
+    margin-bottom: 20px;
+}
+
+.mb-3{
+    margin-bottom: 30px;
+}
+
+.mt-1{
+    margin-top: 10px;
+}
+
+.mt-2{
+    margin-top: 20px;
+}
+
+.mt-3{
+    margin-top: 30px;
+}
+
+.ml-1{
+    margin-left: 10px;
+}
+
+.ml-2{
+    margin-left: 20px;
+}
+
+.ml-3{
+    margin-left: 30px;
+}
+
+.mr-1{
+    margin-right: 10px;
+}
+
+.mr-2{
+    margin-right: 20px;
+}
+
+.mr-3{
+    margin-right: 30px;
+}
+
+.m-1{
+    margin: 10px 10px;
+}
+
+.m-2{
+    margin: 20px 20px;
+}
+
+.m-3{
+    margin: 30px 30px;
+}
+
+.pb-1{
+    padding-bottom: 10px;
+}
+
+.pb-2{
+    padding-bottom: 20px;
+}
+
+.pb-3{
+    padding-bottom: 30px;
+}
+
+.pt-1{
+    padding-top: 10px;
+}
+
+.pt-2{
+    padding-top: 20px;
+}
+
+.pt-3{
+    padding-top: 30px;
+}
+
+.pl-1{
+    padding-left: 10px;
+}
+
+.pl-2{
+    padding-left: 20px;
+}
+
+.pl-3{
+    padding-left: 30px;
+}
+
+.pr-1{
+    padding-right: 10px;
+}
+
+.pr-2{
+    padding-right: 20px;
+}
+
+.pr-3{
+    padding-right: 30px;
+}
+
+.p-1{
+    padding: 10px 10px;
+}
+
+.p-2{
+    padding: 20px 20px;
+}
+
+.p-3{
+    padding: 30px 30px;
+}
+
+.border{
+    border: 2px dotted black;
+}
+
+.rounded-1{
+    border-radius: 10px 10px;
+}
+
+.rounded-2{
+    border-radius: 20px 20px 20px 20px;
+}
+
+.rounded-3{
+    border-radius: 30px 30px 30px 30px;
+}
+
+.shadow-1{
+    box-shadow: 5px 5px 5px black;
+    /* 
+    1) Décalage horizontal
+    2) Décalage vertical
+    3) adoucissement du dégradé
+    */
+}
+
+.shadow-2{
+    box-shadow: 15px 15px 15px black;
+}
+
+.shadow-3{
+    box-shadow: 30px 30px 30px black;
+}
+
+.test-event:hover{
+    background-color: chartreuse;
+}

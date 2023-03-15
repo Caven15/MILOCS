@@ -1,0 +1,44 @@
+div{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+div td{
+    color: black;
+    font-weight: bold;
+}
+
+table, td{
+    border-collapse: collapse;
+}
+
+table{
+    background-color: red;
+}
+
+td{
+    height: 50px;
+    width: 100px;
+    border: 20px solid red;
+    background-color: red;
+    text-align: center;
+}
+
+#elemA{
+    vertical-align: top;
+}
+
+#elemC{
+    vertical-align: bottom;
+}
+
+#elemF{
+    background-color: gold;
+}
+
+#elemG{
+    background-color: lightblue;
+}

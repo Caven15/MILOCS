@@ -1,0 +1,40 @@
+div{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+div td{
+    color: black;
+    font-weight: bold;
+}
+
+table{
+    background-color: red;
+    border-spacing: 0px;
+}
+
+td{
+    height: 50px;
+    width: 150px;
+    border: 20px solid red;
+    text-align: center;
+}
+
+#elemA{
+    background-color: green;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+#elemB{
+    background-color: gold;
+    vertical-align: top;
+}
+
+#elemG{
+    background-color: lightblue;
+    text-align: right;
+}

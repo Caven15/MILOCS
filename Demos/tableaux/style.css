@@ -1,0 +1,17 @@
+caption{
+    border: 1px solid black;
+    border-bottom: none;
+    height: 25px;
+
+}
+
+td, th, tr, table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 50px;
+}
+
+td{
+    text-align: center;
+    vertical-align: middle;
+}

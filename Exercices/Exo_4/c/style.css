@@ -1,0 +1,45 @@
+div{
+    background-color: black;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+h1{
+    color: white;
+}
+
+div td{
+    background-color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+table{
+    background-color: chartreuse;
+    border-spacing: 5px;
+}
+
+td{
+    height: 25px;
+    width: 50px;
+    border: 15px solid red;
+    text-align: center;
+}
+
+.vert > td{
+    background-color: forestgreen;
+}
+
+.jaune > td{
+    background-color: gold;
+}
+
+.jaune > td:nth-child(even){
+    background-color: pink;
+}
+
+#elem17{
+    background-color: lightblue;
+}
+

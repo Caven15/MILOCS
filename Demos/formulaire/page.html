@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Les formulaires</h1>
+    <fieldset>
+        <legend>Les input</legend>
+        <form>
+
+            <label for="monPrenom">Prenom :</label>
+            <input id="monPrenom" type="text" name="prenom" placeholder="Votre prenom">
+
+            <label for="monAge">Age :</label>
+            <input id="monAge" type="number" name="age" placeholder="Votre age">
+
+            <label for="monEmail">Email :</label>
+            <input id="monEmail" type="email" name="email" placeholder="Votre email">
+
+            <label for="monPassword">Password :</label>
+            <input id="monPassword" type="password" name="password">
+
+            <label for="maSearch">Search :</label>
+            <input id="maSearch" type="search" name="recherche" placeholder="Votre recherche">
+
+            <p>Tel :</p>
+            <input type="tel">
+
+            <p>Url :</p>
+            <input type="url" name="url">
+
+            <p>File :</p>
+            <input type="file" name="image" encType="multipart/form-data">
+
+            <p>Color :</p>
+            <input type="color" name="couleur">
+
+            <p>Date :</p>
+            <input type="date" name="date">
+
+            <p>Time :</p>
+            <input type="time" name="time">
+
+            <p>TexteArea :</p>
+            <textarea name="monTexte" cols="1" rows="1">
+
+            </textarea>
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Champs à choix</legend>
+
+        <fieldset>
+            <legend>Checkbox</legend>
+            <label for="listeChoixCheck">Menage maison</label>
+            <input id="listeChoixCheck" type="checkbox" name="listeChoix">
+
+            <label for="listeChoixCheck2">Entretien voiture</label>
+            <input id="listeChoixCheck2" type="checkbox" name="listeChoix">
+        </fieldset>
+
+        <fieldset>
+            <legend>Bouton Radio</legend>
+            <label for="listeChoixRadio">Mineur</label>
+            <input id="listeChoixRadio" type="radio" name="listeChoix">
+
+            <label for="listeChoixRadio2">Majeur</label>
+            <input id="listeChoixRadio2" type="radio" name="listeChoix">
+        </fieldset>
+
+        <fieldset>
+            <legend>Liste</legend>
+                <select name="web">
+                    <option value="css">Css</option>
+                    <option value="Html">Html</option>
+                    <option value="cSharp" selected>C#</option>
+                    <option value="javascript">JavaScript</option>
+                </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Liste + sous groupe</legend>
+            <select name="web">
+                <optgroup label="Front-end">
+                    <option value="html">Html</option>
+                    <option value="css">Css</option>
+                    <option value="javascript">JavaScript</option>
+                </optgroup>
+                <optgroup label="Back-end">
+                    <option value="csharp">C#</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="python">Python</option>
+                </optgroup>
+            </select>
+        </fieldset>
+    </fieldset>
+
+    <fieldset>
+        <legend>Formulaire Test</legend>
+        <form method="post">
+            <div>
+                <label for="prenom">Prenom :</label>
+                <input id="prenom" type="text" name="prenom" placeholder="Encodez votre prenom">
+            </div>
+            <div>
+                <label for="nom">Nom :</label>
+                <input id="nom" type="text" name="nom" placeholder="Encodez votre nom">
+            </div>
+            <div>
+                <label for="dateNaissance">Date de naissance :</label>
+                <input id="dateNaissance" type="date" name="dateNaissance" placeholder="Encodez votre dateNaissance">
+            </div>
+            <div>
+                <label for="estMarie">Marié</label>
+                <input id="estMarie" type="radio" name="estMarie">
+
+                <label for="estCelibataire">Célibataire</label>
+                <input id="estCelibataire" type="radio" name="estMarie">
+
+                <label for="estcomplique">C'est compliqué...</label>
+                <input id="estcomplique" type="radio" name="estMarie">
+            </div>
+            <button type="submit">Valider</button>
+            <a href="../html+css/page.html"><input type="button" value="Demonstrations Css"></a>
+        </form>
+    </fieldset>
+</body>
+</html>
